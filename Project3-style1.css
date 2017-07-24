@@ -1,0 +1,132 @@
+#page-wrapper{
+	width:80%;
+	margin:auto;
+}
+
+h1{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+}
+
+nav{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 2% 2%;
+}
+
+/*ol stuff*/
+#cardtypes ol{
+	font-family: "Arial Bold",Gadget,sans-serif;
+	list-style-type: none;
+}
+
+ol>li{
+	display: inline-block;
+	width:300px;
+}
+
+
+/*ul stuff*/
+#menubar ul{
+	list-style: none;
+}
+#menubar li{
+	display:inline-block;
+	/* float:left; */
+}
+			
+
+#menubar>li>a{
+	height:10%;
+	width:140px;
+	/* background-color: blue; */
+	display:inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align:center;
+}
+#menubar>li>a{
+	background-color: blue;
+	color:white;
+	padding: 1%;
+}
+/* ul>li>a{
+	background-color: blue;
+	padding: 2%;
+	color:white;
+	display: block;
+	text-decoration: none;
+} */
+
+.clear{
+	clear: both;
+}
+
+.normal-monster{
+	width:16%;
+}
+
+.rules{
+	width:30%;
+}
+
+.column{
+	
+}
+
+.column{
+	float:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.small{
+	width:30%;
+}
+.large{
+	width:40%;
+}
+
+/* figure{
+	width:30%;
+	display:inline-block;
+} */
+
+figure>img{
+	width: 100%;	
+}
+figure>figcaption{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	text-align:center;
+}
+
+article{
+	background-color: lightgray;
+	padding: 2%;
+	margin: 2%;
+	width: 90%;	
+}
+table{
+	background-color: grey;
+}
+
+tbody{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	background-color: oldlace;
+	/* text-align:center; */
+	padding:2%;
+	/* width:80%; */
+}
+.center{
+	text-align:center;
+}
+thead{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	background-color: grey;
+	text-align:center;
+	padding:2%;
+}
+
+tfoot{
+	background-color: oldlace;
+	padding:2%;
+}
